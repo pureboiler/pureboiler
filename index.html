@@ -2,58 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pure Boiler Wiring</title>
+  <meta name="description" content="Pure Boiler Wiring offers professional and reliable boiler electrical services." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="wrapper">
+    <header id="header">
+      <img src="img/Pure_Header.jpg" alt="Pure Boiler Wiring Header" />
+    </header>
 
-  <!-- LOGO -->
-  <header>
-    <img src="PHOTO-2025-07-14-15-32-56.jpg" alt="Pure Boiler Wiring Logo" class="logo" />
-    <h1>Pure Boiler Wiring</h1>
-    <p>Specialist wiring for boilers, heating systems, and more</p>
-  </header>
+    <nav id="nav">
+      <a href="index.html"><img src="img/home2.jpg" alt="Home" /></a>
+      <a href="services.html"><img src="img/services.jpg" alt="Services" /></a>
+      <a href="portfolio.html"><img src="img/portfolio.jpg" alt="Portfolio" /></a>
+      <a href="contact.html"><img src="img/contact.jpg" alt="Contact" /></a>
+    </nav>
 
-  <!-- SERVICES SECTION -->
-  <section id="services" class="section">
-    <h2>Services</h2>
-    <ul>
-      <li>Zone valve wiring</li>
-      <li>Boiler fault finding</li>
-      <li>S-plan and Y-plan wiring</li>
-      <li>Wiring for new heating systems</li>
-    </ul>
-  </section>
+    <section id="contact-info">
+      <a href="mailto:info@pureboiler.com"><img src="img/email.jpg" alt="Email Us" /></a>
+      <a href="tel:07796140962"><img src="img/tel.jpg" alt="Call Us" /></a>
+    </section>
 
-  <!-- ABOUT SECTION -->
-  <section id="about" class="section">
-    <h2>About</h2>
-    <p>We specialise in clean, professional boiler and heating wiring. Serving domestic and commercial customers across the region.</p>
-  </section>
+    <main id="content">
+      <div id="text">
+        <h2>Welcome to Pure Boiler Wiring</h2>
+        <p>
+          We are a specialist boiler wiring service offering neat, safe, and professional installations across the region.
+        </p>
+        <p>
+          Our services include Hive/Nest installs, boiler system wiring, and smart heating upgrades.
+          Check out our <a href="services.html">services</a> or browse our <a href="portfolio.html">portfolio</a>.
+        </p>
+        <p>
+          Ready to book or get a free quote? Contact us today.
+        </p>
+      </div>
 
-  <!-- INSTAGRAM PLACEHOLDER -->
-  <section id="instagram" class="section">
-    <h2>Instagram</h2>
-    <p>Follow us for real project updates and neat wiring jobs. Coming soon.</p>
-  </section>
+      <aside id="enquiry">
+        <form method="post" action="index.html" id="emailer">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
 
-  <!-- CONTACT FORM -->
-  <section id="contact" class="section">
-    <h2>Enquiries</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Email Address" required />
-      <input type="tel" name="phone" placeholder="Phone Number" />
-      <input type="text" name="address" placeholder="Installation Address" />
-      <textarea name="message" placeholder="Describe your enquiry or work needed" required></textarea>
-      <button type="submit">Send Enquiry</button>
-    </form>
-  </section>
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" required />
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>&copy; 2025 Pure Boiler Wiring</p>
-  </footer>
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" required />
 
-</
+          <label for="comments">Enquiry</label>
+          <textarea name="comments" id="comments" rows="6"></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
+      </aside>
+    </main>
+
+    <footer>
+      <img src="img/wrapper_bot-pink.jpg" alt="Footer Design" />
+      <p class="credits">Website Design by Pure Boiler Wiring</p>
+    </footer>
+  </div>
+</body>
+</html>
